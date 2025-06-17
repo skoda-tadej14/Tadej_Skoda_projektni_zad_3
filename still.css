@@ -1,0 +1,113 @@
+@font-face {
+    font-family:"Tadej_Skoda";
+	src:url("Tadej_Skoda.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+    background-image:url("../projektni 3/Pozadina/pozadina.jpg");
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; 
+}
+h1 {
+    font-size: 65px; 
+	text-align: center;
+    padding:80px; 
+    margin-left: auto; 
+	margin-right:auto; 
+	width: 310px;
+    font-family:"Tadej_Skoda";
+	color:olive;
+    background-color:rgba(191,130,15,0.60);
+    padding:20px;	
+}
+h2 {
+	font-size: 27px;
+	text-align: center;
+	font-family:"Fira Sans", serif; 
+	padding:10px; 
+    margin-left: auto; 
+	margin-right:auto; 
+	width: 300px;
+	color:olive; 
+}
+h3 {
+	font-size: 23px;
+	text-align: center;
+	font-family:"Fira Sans", serif;
+	padding:10px; 
+    margin-left: auto; 
+	margin-right:auto; 
+	width: 300px;
+	color:olive; 
+	background-color:rgba(191,130,15,0.60);
+}
+p {
+	font-size: 20px;
+	text-align: center;
+	font-family:"Fira Sans", serif;
+	padding:10px; 
+    margin-left: auto; 
+	margin-right:auto; 
+	width: 900px;
+	color:darkolivegreen;
+}
+img {
+	 padding:50px;
+     height: 400px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+ul.nav	{	
+		padding:20px; 
+		margin-left: auto; 
+		margin-right:auto; 
+		width:390px;
+			} 
+ul.nav li {	
+		 display:inline; 
+		 background-color:#784630 ;
+		 padding:20px;
+		 border: 2px solid #462D2A;
+		 }
+ul.nav li:active {background-color:#145A32;}
+ul.nav li a {color:antiquewhite;  
+			font-family: "CabinSketch", sans-serif; 
+			text-transform: uppercase;
+			}	
+ul.nav li a:link {text-decoration:none;}
+ul.nav li a:hover {	text-decoration:underline;}
+
+ul.youtube-links {
+    font-size: 20px;
+	font-family:"Fira Sans", serif; 
+	padding: 10px;
+    margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	color:olive;
+}
+ul.youtube-links li a {
+	color:olive;
+}
+ul.youtube-links li a:hover {text-decoration:underline;}
+ul {
+	  font-size: 20px;
+	font-family:"Fira Sans", serif; 
+	padding: 10px;
+    margin-left: auto;
+	margin-right: auto;
+	width: 320px;
+	color:olive;	
+}
